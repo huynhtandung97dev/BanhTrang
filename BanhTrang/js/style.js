@@ -253,7 +253,7 @@ $(document).ready(function () {
     arrSlider += `<div class="zoom-dark card" style="width: 250px;">
         <a class="tem-parent" href="`+listGiavi[i].image+`" data-lightbox="mygallery">  
           <img class="card-img-top" src="`+ listGiavi[i].image + `" alt="Card image cap">
-          <img class="tem-product" width="50px" src="https://res.cloudinary.com/banhtrang/image/upload/v1643184777/logo/logo-footer_q61wps.png" alt="">
+          <img class="tem-slick" width="50px" src="https://res.cloudinary.com/banhtrang/image/upload/v1643184777/logo/logo-footer_q61wps.png" alt="">
         </a>
         <div class="card-body">
           <h5 class="card-title">`+ listGiavi[i].name + `</h5>
