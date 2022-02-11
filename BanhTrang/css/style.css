@@ -243,6 +243,7 @@ a:hover{
 }
 
 .item-all{
+    width: 230px;
     margin: 20px;
 }
 
@@ -315,7 +316,6 @@ a:hover{
     cursor: pointer;
     height: 250px !important;
 }
-
 .fa-solid{
     margin-right: 10px;
 }
@@ -392,7 +392,13 @@ a:hover{
     border-bottom: 1px solid #e1e1e1;
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1400px) {
+    .item-all{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 1303px){
     .title{
         font-size: 15px;
     }
@@ -401,6 +407,19 @@ a:hover{
     }
     .item-menu > a > img {
         width: 250px;
+    }
+    .item-all{
+        margin: 7px;
+        width: 223px;
+    }
+    .card-body{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1064px){
+    .item-all{
+        margin: 10px;
     }
 }
 
@@ -413,6 +432,9 @@ a:hover{
     }
     .item-menu > a > img {
         width: 230px;
+    }
+    .item-all{
+        margin: 10px;
     }
 }
 

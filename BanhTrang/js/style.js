@@ -265,7 +265,7 @@ $(document).ready(function () {
 
   //hien thi tat ca san pham trang chu
   for (let i = 0; i < listAll.length; i++) {
-    arrAll += `<div class="zoom-dark card item-all" style="width: 230px;">
+    arrAll += `<div class="zoom-dark card item-all">
       <div class="hover-img">
         <a class="tem-parent" href="`+listAll[i].image+`" data-lightbox="mygallery">  
           <img class="card-img-top" src="`+ listAll[i].image + `" alt="Card image cap">
