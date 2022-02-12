@@ -275,7 +275,7 @@ $(document).ready(function () {
         <div class="card-body">
           <div class="caption-product">
             <div class="name-product">
-              <h5 class="card-title">`+ listAll[i].name + `</h5>
+              <h4 class="card-title">`+ listAll[i].name + `</h4>
             </div>
               <p class="card-text">`+ listAll[i].price + `</p>
           </div>
@@ -295,7 +295,7 @@ $(document).ready(function () {
     nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -313,6 +313,14 @@ $(document).ready(function () {
       },
       {
         breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          dots: false,
+        }
+      },
+      {
+        breakpoint: 540,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
